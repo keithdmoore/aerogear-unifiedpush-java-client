@@ -51,6 +51,8 @@ Construct a ``` UnifiedMessage ``` using the ``` Builder ``` :
                 .aliases(Arrays.asList("john", "maria"))
                 .alert("Hello from Java Sender API!")
                 .sound("default")
+                .badge(1)
+                .attribute("title", "Cool Title")
                 .build();
 ```
 
